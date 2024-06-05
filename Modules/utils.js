@@ -5,5 +5,6 @@ const validateProductData = (productData) => {
     return errors;
   };
   
+  
   module.exports
   

@@ -21,6 +21,7 @@ app.use('/api/products', (req, res) => {
         return res.status(400).json({ errors: validationErrors });
       }
 
+      
       getProducts()
         .then((products) => {
           products.push(newProductData);
