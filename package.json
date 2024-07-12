@@ -1,7 +1,7 @@
 {
     "name": "ecommerce",
     "version": "1.0.0",
-    "description": "Mi API RESTful",
+    "description": "Mi API",
     "main": "server.js",
     "type": "module",
     "scripts": {
