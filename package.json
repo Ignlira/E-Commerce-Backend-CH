@@ -7,7 +7,10 @@
     "scripts": {
         "start": "node --watch --no-warnings ./server.js",
         "stop-windows": "taskkill /F /IM node.exe",
-        "stop-linux": "killall -9 node"
+        "stop-linux": "killall -9 node",
+        "dev": "nodemon server.js",
+        "prod": "node server.js"
+}
     },
     "keywords": [],
     "author": "ignacio Lira",

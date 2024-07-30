@@ -3,10 +3,10 @@ import paths from "./utils/paths.js";
 import mongoDB from "./config/mongoose.config.js";
 import handlebars from "./config/handlebars.config.js";
 
-import appProductsRouter from "./routes/app.products.router.js";
-import appCartsRouter from "./routes/app.carts.router.js";
-import apiProductsRouter from "./routes/api.products.router.js";
-import apiCartsRouter from "./routes/api.Carts.router.js";
+import appProductsRouter from "./routes/app/app.products.router.js";
+import appCartsRouter from "./routes/app/app.carts.router.js";
+import apiProductsRouter from "./routes/api/api.products.router.js";
+import apiCartsRouter from "./routes/api/api.Carts.router.js";
 
 import { ERROR_SERVER, ERROR_NOT_FOUND_URL } from "./constants/messages.constant.js";
 
