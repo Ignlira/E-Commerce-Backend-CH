@@ -1,7 +1,7 @@
 import { connect, Types } from "mongoose";
 
 const connectDB = () => {
-    const URI = "mongoDB-URL";
+    const URI = "mongodb+srv://ignlira:f3TlUR05dy7QvZ4E@ecommerceignacio.dxsm1t4.mongodb.net/?retryWrites=true&w=majority&appName=ecommerceIgnacio";
 
     const options = {
         useNewUrlParser: true,
